@@ -9,7 +9,8 @@
     "start": "browser-sync start --server --watch --files '**/*.{html,css,js}, !node_modules'"
   },
   "dependencies": {
-    "lit-element": "^2.2.0"
+    "lit-element": "^2.2.0",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7"
