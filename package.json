@@ -6,7 +6,7 @@
   "private": true,
   "author": "Giorgio Garasto <giorgio@garasto.it>",
   "scripts": {
-    "start": "browser-sync start --server --watch --files '**/*.{html,css,js}, !node_modules'"
+    "start": "browser-sync start --server --watch --files '**/*.{html,css,js}, !node_modules' --browser 'Google Chrome Canary'"
   },
   "dependencies": {
     "lit-element": "^2.2.0",
