@@ -1682,6 +1682,11 @@ readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
+redom@^3.23.1:
+  version "3.23.1"
+  resolved "https://registry.npmjs.org/redom/-/redom-3.23.1.tgz#0f7d0a666fb71b3dd2d5dbb4409c1eb61b258bcc"
+  integrity sha512-YHlBNE0JyajgjKmdnUBFMMyls14v+GvJeaqQaNUWnAygMUmdr41qd/vr0E2nCj8d49Dr+kdqHFinM20ReIy8yg==
+
 regex-not@^1.0.0, regex-not@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/regex-not/-/regex-not-1.0.2.tgz#1f4ece27e00b0b65e0247a6810e6a85d83a5752c"

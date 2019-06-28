@@ -7,6 +7,7 @@
     </div>
     <div id="preact-app"></div>
     <div id="hyperapp"></div>
+    <div id="redom"></div>
     <script type="importmap">
       {
         "imports": {
@@ -16,7 +17,9 @@
           "lit-element/": "/node_modules/lit-element/",
           "vue": "/node_modules/vue/dist/vue.esm.browser.min.js",
           "preact": "/node_modules/preact/dist/preact.mjs",
-          "hyperapp": "/node_modules/hyperapp/src/index.js"
+          "hyperapp": "/node_modules/hyperapp/src/index.js",
+          "redom": "/node_modules/redom/esm/index.js",
+          "redom/": "/node_modules/redom/esm/"
         }
       }
     </script>
@@ -24,5 +27,6 @@
     <script type="module" src="vue/VueComponent.js"></script>
     <script type="module" src="preact/PreactComponent.js"></script>
     <script type="module" src="hyperapp/hyperapp.js"></script>
+    <script type="module" src="redom/RedomComponent.js"></script>
   </body>
 </html>
