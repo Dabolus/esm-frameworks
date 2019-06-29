@@ -9,11 +9,18 @@
     "start": "browser-sync start --server --watch --files '**/*.{html,css,js}, !node_modules' --browser 'Google Chrome Canary'"
   },
   "dependencies": {
+    "@angular/common": "^8.0.3",
+    "@angular/compiler": "^8.0.3",
+    "@angular/core": "^8.0.3",
+    "@angular/platform-browser": "^8.0.3",
+    "@angular/platform-browser-dynamic": "^8.0.3",
     "hyperapp": "^2.0.0-beta.22",
     "lit-element": "^2.2.0",
     "preact": "^8.4.2",
     "redom": "^3.23.1",
-    "vue": "^2.6.10"
+    "rxjs": "^6.5.2",
+    "vue": "^2.6.10",
+    "zone.js": "^0.9.1"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7"
