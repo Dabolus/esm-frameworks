@@ -1,4 +1,4 @@
-import { el, mount } from 'redom';
+import { el } from 'redom';
 
 export class RedomComponent {
   constructor() {
@@ -11,8 +11,3 @@ export class RedomComponent {
     this.el.textContent = `RE:DOM is ${this.data.mood}!`;
   }
 }
-
-mount(
-  document.querySelector('#redom'),
-  new RedomComponent(),
-);
