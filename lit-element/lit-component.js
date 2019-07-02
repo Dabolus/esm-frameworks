@@ -1,6 +1,6 @@
 import { LitElement, html } from 'lit-element';
 
-class LitComponent extends LitElement {
+export class LitComponent extends LitElement {
   static properties = {
     mood: { type: String },
   };
@@ -14,5 +14,3 @@ class LitComponent extends LitElement {
     `;
   }
 }
-
-customElements.define('lit-component', LitComponent)
