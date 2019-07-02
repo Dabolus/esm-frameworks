@@ -1,6 +1,6 @@
 import Vue from 'vue';
 
-Vue.component('vue-component', {
+export const VueComponent = Vue.component('vue-component', {
   props: ['mood'],
   template: `
     <div>
@@ -8,5 +8,3 @@ Vue.component('vue-component', {
     </div>
   `,
 });
-
-new Vue({ el: '#vue-app' });
