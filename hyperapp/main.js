@@ -1,7 +1,8 @@
 import { h, app } from 'hyperapp';
+import { HyperappComponent } from './HyperappComponent.js';
 
 app({
   init: () => ({ mood: 'great' }),
-  view: state => h('div', {}, `Hyperapp is ${state.mood}!`),
+  view: ({ mood }) => h(HyperappComponent, { mood }),
   node: document.querySelector('#hyperapp'),
 });
